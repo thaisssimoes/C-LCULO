@@ -1,6 +1,8 @@
 class numero_binario:
-    def calculo(self, num):
+    def __init__(self):
         self.lista_numeros=[]
+        
+    def calculo(self, num):
         while num !=0:
             self.numero = num%2
             self.lista_numeros.append(self.numero)
