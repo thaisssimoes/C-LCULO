@@ -12,7 +12,3 @@ class numero_binario:
         print("\n")
 
 
-numero = numero_binario()
-for num in range(100):
-    numero.calculo(num)
-    numero.imprime()
